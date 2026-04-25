@@ -1,10 +1,10 @@
-# sgrep
+# rgrep
 
 Version pédagogique plus ambitieuse du `minigrep` de la documentation Rust.
 
 Le but est de construire progressivement un vrai petit `grep` en Rust, avec une architecture propre, une CLI correcte, des tests, puis des sujets plus avancés comme le streaming, les regex, le parcours récursif et les performances.
 
-Les exemples ci-dessous utilisent parfois `rgrep` comme nom cible. Si tu gardes le nom du dépôt, remplace simplement par `sgrep`.
+Le projet cible s'appelle `rgrep`.
 
 ## Exemples visés
 

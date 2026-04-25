@@ -168,8 +168,8 @@ SearchEngine
 Usage :
 
 ```sh
-sgrep pattern huge.log --mmap
-sgrep pattern huge.log --engine auto
+rgrep pattern huge.log --mmap
+rgrep pattern huge.log --engine auto
 ```
 
 Options possibles :
@@ -227,8 +227,8 @@ l'affichage peut devenir mélangé.
 Deux modes possibles :
 
 ```sh
-sgrep TODO src --threads 8
-sgrep TODO src --threads 8 --sort path
+rgrep TODO src --threads 8
+rgrep TODO src --threads 8 --sort path
 ```
 
 **Stratégie A - Output immédiat**
@@ -259,9 +259,9 @@ Compétences :
 Pour gérer :
 
 ```sh
-sgrep error file.log -A 3
-sgrep error file.log -B 3
-sgrep error file.log -C 3
+rgrep error file.log -A 3
+rgrep error file.log -B 3
+rgrep error file.log -C 3
 ```
 
 Il faut afficher des lignes autour du match.
